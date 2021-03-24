@@ -1,2 +1,2 @@
-# motif
-A UI component library for Resuminator
+# Motif UI Library
+A UI component library for Resuminator and its peer projects. 
