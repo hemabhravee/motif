@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-var Button = function () { return (React.createElement("button", null, "Click Here")); };
+var Button = function () { return (React.createElement("button", { role: "button" }, "Click Here")); };
 
-export { Button as MyComponent };
+export { Button };
 //# sourceMappingURL=index.es.js.map

@@ -26,7 +26,7 @@ function _interopNamespace(e) {
 
 var React__namespace = /*#__PURE__*/_interopNamespace(React);
 
-var Button = function () { return (React__namespace.createElement("button", null, "Click Here")); };
+var Button = function () { return (React__namespace.createElement("button", { role: "button" }, "Click Here")); };
 
-exports.MyComponent = Button;
+exports.Button = Button;
 //# sourceMappingURL=index.js.map
