@@ -1,7 +1,9 @@
 <h1 align="center">Motif UI Library</h1>
 
-<div align="center">A UI component library for Resuminator and its peer projects. 
-Motif is based on Material-UI to build consistent, performant, and beautiful UIs quickly. 
+<div align="center">
+
+A UI component library for [Resuminator](https://resuminator.in) and its peer projects. 
+Motif is based on [Material-UI](https://material-ui.com/) to build consistent, performant, and beautiful UIs quickly. 
 It provides useful wrappers around the MUI components allowing even more customization.
 
 ![GitHub](https://img.shields.io/github/license/resuminator/motif?style=flat-square) 
@@ -53,7 +55,7 @@ Finally fetch all the remotes by executing
 $ git fetch --all
 ```
 
-Once the repository is correctly initialized install all the dependencies and run the [Storybook]() to see all the components in the library.
+Once the repository is correctly initialized install all the dependencies and run the [Storybook](https://storybook.js.org/) to see all the components in the library.
 
 ```shell
 npm install
