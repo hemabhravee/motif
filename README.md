@@ -1,4 +1,4 @@
-<h1 align="center">Motif UI Library</h1>
+<h1 align="center">🔮 Motif UI Library</h1>
 
 <div align="center">
 
