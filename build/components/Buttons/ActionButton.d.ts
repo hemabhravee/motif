@@ -1,5 +1,5 @@
 import * as React from 'react';
-interface IActionButtonProps {
+export interface IActionButtonProps {
     text: string;
     link?: string;
     startIcon?: React.ReactNode;

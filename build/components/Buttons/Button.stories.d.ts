@@ -4,5 +4,5 @@ declare const _default: {
 };
 export default _default;
 export declare const Basic: () => React.ReactNode;
-export declare const Action: () => React.ReactNode;
-export declare const WithIcons: () => React.ReactNode;
+export declare const Action: any;
+export declare const WithIcons: any;

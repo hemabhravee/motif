@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-interface IActionButtonProps {
+export interface IActionButtonProps {
   text: string;
   link?: string;
   startIcon?: React.ReactNode;
