@@ -2,7 +2,12 @@
 
 <div align="center">
 
-A UI component library for [Resuminator](https://resuminator.in) and its peer projects. 
+<h3 align="center">
+
+A UI component library for [Resuminator](https://resuminator.in) and its peer projects.
+
+</h3> 
+
 Motif is based on [Material-UI](https://material-ui.com/) to build consistent, performant, and beautiful UIs quickly. 
 It provides useful wrappers around the MUI components allowing even more customization.
 
@@ -12,7 +17,7 @@ It provides useful wrappers around the MUI components allowing even more customi
 
 </div>
 
-## Installation
+## 🧩 Installation
 Motif is currently NOT available as an NPM package but you may install it for any Resuminator product in the following way
 
 With npm 
@@ -25,16 +30,16 @@ With yarn
 yarn add git+ssh://git@github.com:resuminator/motif.git
 ```
 
-## Usage
+## 👨🏻‍💻 Usage
 Once you have installed the library, you can causally import the components and use them in the following way
 
 ```js
 import { CustomButton } from "@resuminator/motif";
 
-const App = () => <CustomButton/>
+const App = () => <CustomButton />
 ```
 
-## Setting up development environment
+## ⚙ Setting up development environment
 Motif library is build using Typescript React and uses ES Lint rules to envoke consistency across the library. We use Prettier to sanitize our code. The configurations for both are given in the repository itself.
 
 Start by forking the repository and then clone your private repository directly on your system.
@@ -65,12 +70,12 @@ npm install
 npm run storybook
 ```
 
-## Roadmap
+## 🚘 Roadmap
 The library shall be follwoing the design guide and the wireframes and mockups from our Figma project - [Resuminator Redesign](bit.ly/resuminator-figma). The roadmap will be updated accordingly with the required components. 
 
 If you wish to contribute or create a component, feel free to open an issue indicating clearly which component you wish to work on.
 
-### Atoms - the smallest units
+### ⚛ Atoms - the smallest units
 - [ ] Buttons  
 - [ ] Cards  
    - [ ] Rounded Card (4px,8px, 16px)  
