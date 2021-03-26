@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     padding: theme.spacing(1),
     marginTop: theme.spacing(2),
-    width: theme.spacing(40)
+    width: theme.spacing(16)
   },
   text: {
     fontFamily: 'Karla',
@@ -33,8 +33,8 @@ const ActionButton: React.FC<IActionButtonProps> = ({
   return (
     <Button
       className={classes.root}
-      variant="outlined"
-      color="primary"
+      variant="contained"
+      color="secondary"
       size="large"
       startIcon={startIcon}
       endIcon={endIcon}
