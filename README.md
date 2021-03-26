@@ -64,3 +64,18 @@ npm install
 ```shell
 npm run storybook
 ```
+
+## Roadmap
+The library shall be follwoing the design guide and the wireframes and mockups from our Figma project - [Resuminator Redesign](bit.ly/resuminator-figma). The roadmap will be updated accordingly with the required components. 
+
+If you wish to contribute or create a component, feel free to open an issue indicating clearly which component you wish to work on.
+
+### Atoms - the smallest units
+- [ ] Buttons  
+- [ ] Cards  
+   - [ ] Rounded Card (4px,8px, 16px)  
+   - [ ] Flat Cards
+- [ ] Logo Types
+    - [ ] Emblem
+    - [ ] Emblem with Text
+    - [ ] Only Text
