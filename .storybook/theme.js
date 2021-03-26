@@ -1,7 +1,7 @@
 const { createMuiTheme, responsiveFontSizes } = require('@material-ui/core');
 
-const theme = createMuiTheme(
-  responsiveFontSizes({
+const theme = responsiveFontSizes(
+  createMuiTheme({
     palette: {
       primary: {
         light: '#4cc9f0',
@@ -12,7 +12,7 @@ const theme = createMuiTheme(
       secondary: {
         light: '#eed3da',
         main: '#feb6c8',
-        dark: '#dd3b69',
+        dark: '#e20880',
         contrastText: '#393243'
       },
       info: {
@@ -39,7 +39,7 @@ const theme = createMuiTheme(
         dark: '#ffb921',
         contrastText: '#121212'
       },
-      contrastThreshold: 3.5
+      contrastThreshold: 3.5,
     },
     typography: {
       brand: {
