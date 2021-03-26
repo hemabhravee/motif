@@ -2,12 +2,7 @@
 
 <div align="center">
 
-<h3 align="center">
-
 A UI component library for [Resuminator](https://resuminator.in) and its peer projects.
-
-</h3> 
-
 Motif is based on [Material-UI](https://material-ui.com/) to build consistent, performant, and beautiful UIs quickly. 
 It provides useful wrappers around the MUI components allowing even more customization.
 
