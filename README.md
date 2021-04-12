@@ -66,16 +66,94 @@ npm run storybook
 ```
 
 ## 🚘 Roadmap
-The library shall be follwoing the design guide and the wireframes and mockups from our Figma project - [Resuminator Redesign](bit.ly/resuminator-figma). The roadmap will be updated accordingly with the required components. 
+The library shall be follwoing the design guide and the wireframes and mockups from our Figma project - [Resuminator Redesign](bit.ly/resuminator-figma). The roadmap will be updated accordingly with the required components. For reference we're following the [Browk UI Kit](https://www.figma.com/community/file/817436609226882468) on Figma Community.
 
 If you wish to contribute or create a component, feel free to open an issue indicating clearly which component you wish to work on.
 
 ### ⚛ Atoms - the smallest units
-- [ ] Buttons  
-- [ ] Cards  
-   - [ ] Rounded Card (4px,8px, 16px)  
-   - [ ] Flat Cards
-- [ ] Logo Types
-    - [ ] Emblem
-    - [ ] Emblem with Text
-    - [ ] Only Text
+'Atoms' are the smallest units which shall later make up the 'molecules' which in-turn make up 'elements' for the application. We'll be customizing some of the components from the MUI kit and export the rest of them as is. Follow the progress below.
+
+<li> [ ] Color Scheme.
+
+<details>
+<summary> [ ] Buttons</summary>  
+   <li> [ ] Secondary (Light & Dark)
+   <li> [ ] Primary (Light & Dark)
+   <li> [ ] With Loader
+   <li> [ ] Outlined
+   <li> [ ] Flat
+</details>
+
+<details>
+<summary> [ ] Chip/Badges </summary>
+   <li> [ ] Contained
+   <li> [ ] Outlined
+   <li> [ ] Tags
+   <li> [ ] Pro Badge
+</details>
+
+<details>
+<summary> [ ] Checkbox </summary>
+   <li> [ ] Default
+   <li> [ ] With Label
+</details>
+
+<details>
+<summary> [ ] Inputs </summary>
+   <li> [ ] Default
+   <li> [ ] With Hover
+   <li> [ ] With Color 
+   <li> [ ] With Icon (Left/Right/Both)
+   <li> [ ] With Search
+</details>
+
+<details>
+<summary> [ ] Dialogs </summary>
+   <li> [ ] Default
+   <li> [ ] Alert
+   <li> [ ] Notice
+   <li> [ ] With Action
+   <li> [ ] With Form
+</details>
+
+<details>
+<summary> [ ] Tabs  </summary>
+   <li> [ ] Default
+   <li> [ ] With line highlight
+   <li> [ ] With color highlight
+</details>
+
+<details>
+<summary>  [ ] Tooltip  </summary>
+   <li> [ ] With Hover
+   <li> [ ] With Direction
+   <li> [ ] With Action
+</details>
+
+<details>
+<summary> [ ] Toggle  </summary>
+   <li> [ ] With Icon
+   <li> [ ] With Label
+</details>
+
+<details>
+<summary> [ ] Cards </summary>
+   <li> [ ] Rounded Card (4px, 8px, 16px)  
+   <li> [ ] Flat Cards
+   <li> [ ] With Hover
+</details>
+
+<details>
+<summary> [ ] Shadows </summary>
+   <li> [ ] Default
+   <li> [ ] Colored
+   <li> [ ] Hover
+   <li> [ ] Active
+</details>
+
+<details>
+<summary> [ ] Logo Types </summary>
+   <li> [ ] Emblem
+   <li> [ ] Emblem with Text
+   <li> [ ] Only Text
+</details>
