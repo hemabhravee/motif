@@ -73,86 +73,80 @@ If you wish to contribute or create a component, feel free to open an issue indi
 ### ⚛ Atoms - the smallest units
 'Atoms' are the smallest units which shall later make up the 'molecules' which in-turn make up 'elements' for the application. We'll be customizing some of the components from the MUI kit and export the rest of them as is. Follow the progress below.
 
-<li> [ ] Color Scheme.
-
 <details>
-<summary> [ ] Buttons</summary>  
+<summary> Theming </summary>
+   <li> [X] Typography
+   <li> [X] UI Kit
+   <li> [ ] Color Scheme
+</details>
+<details>
+<summary> Buttons</summary>  
    <li> [ ] Secondary (Light & Dark)
    <li> [ ] Primary (Light & Dark)
    <li> [ ] With Loader
    <li> [ ] Outlined
    <li> [ ] Flat
 </details>
-
 <details>
-<summary> [ ] Chip/Badges </summary>
+<summary> Chip/Badges </summary>
    <li> [ ] Contained
    <li> [ ] Outlined
    <li> [ ] Tags
    <li> [ ] Pro Badge
 </details>
-
 <details>
-<summary> [ ] Checkbox </summary>
+<summary> Checkbox </summary>
    <li> [ ] Default
    <li> [ ] With Label
 </details>
-
 <details>
-<summary> [ ] Inputs </summary>
+<summary> Inputs </summary>
    <li> [ ] Default
    <li> [ ] With Hover
    <li> [ ] With Color 
    <li> [ ] With Icon (Left/Right/Both)
    <li> [ ] With Search
 </details>
-
 <details>
-<summary> [ ] Dialogs </summary>
+<summary> Dialogs </summary>
    <li> [ ] Default
    <li> [ ] Alert
    <li> [ ] Notice
    <li> [ ] With Action
    <li> [ ] With Form
 </details>
-
 <details>
-<summary> [ ] Tabs  </summary>
+<summary> Tabs  </summary>
    <li> [ ] Default
    <li> [ ] With line highlight
    <li> [ ] With color highlight
 </details>
-
 <details>
-<summary>  [ ] Tooltip  </summary>
+<summary> Tooltip </summary>
    <li> [ ] With Hover
    <li> [ ] With Direction
    <li> [ ] With Action
 </details>
-
 <details>
-<summary> [ ] Toggle  </summary>
+<summary> Toggle </summary>
    <li> [ ] With Icon
    <li> [ ] With Label
 </details>
-
 <details>
-<summary> [ ] Cards </summary>
+<summary> Cards </summary>
    <li> [ ] Rounded Card (4px, 8px, 16px)  
    <li> [ ] Flat Cards
    <li> [ ] With Hover
 </details>
-
 <details>
-<summary> [ ] Shadows </summary>
+<summary> Shadows </summary>
    <li> [ ] Default
    <li> [ ] Colored
    <li> [ ] Hover
    <li> [ ] Active
 </details>
-
 <details>
-<summary> [ ] Logo Types </summary>
+<summary> Logo Types </summary>
    <li> [ ] Emblem
    <li> [ ] Emblem with Text
    <li> [ ] Only Text
