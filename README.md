@@ -151,3 +151,13 @@ If you wish to contribute or create a component, feel free to open an issue indi
    <li> [ ] Emblem with Text
    <li> [ ] Only Text
 </details>
+
+## 🤗 Community and Support
+We're a budding community of developers and designers. 
+Resuminator believes in builing in public and thrives through a community who are willing to support and contribute to Resuminator and its products. 
+
+* Join the [#design](https://discord.gg/4aCE49hzak) channel on [Resuminator's Discord Server](https://discord.gg/m8knsUfU5R) where we discuss upcoming designs and collaborate to improve the sass our product represents. 
+
+* Reach us out on our email ([hello@resuminator.in](mailto:hello@resuminator.in)) for any suggestions and support.
+
+* Join our [GitHub Discussions](https://github.com/resuminator/resuminator/discussions) Community for feedback and support on Resuminator or its products.
