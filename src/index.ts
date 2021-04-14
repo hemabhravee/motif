@@ -1,3 +1,3 @@
-import { ActionButton, CustomButton } from './components/Buttons';
+import { ActionButton, PrimaryButton } from './components/Buttons';
 
-export { ActionButton, CustomButton };
+export { ActionButton, PrimaryButton };

@@ -1,12 +1,19 @@
 import * as React from 'react';
-import { ActionButton, CustomButton } from '.';
+import { ActionButton, PrimaryButton } from '.';
 import { FaArrowRight, FaCoffee } from 'react-icons/fa';
 import { Story } from '@storybook/react';
 import { IActionButtonProps } from './ActionButton';
 
-export default { title: 'Button' };
+export default {
+  title: 'Button',
+  argTypes: {
+    onClick: { action: 'Clicked' }
+  }
+};
 
-export const Basic = (): React.ReactNode => <CustomButton />;
+export const Basic = (): React.ReactNode => (
+  <PrimaryButton text="Button Text" variant="contained" />
+);
 
 const Template: Story<IActionButtonProps> = (args) => (
   <ActionButton {...args} />

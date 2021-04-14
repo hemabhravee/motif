@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import { ActionButton, CustomButton } from '.';
+import { ActionButton, PrimaryButton } from '.';
 
 test('Renders', async () => {
-  const { getByRole } = render(<CustomButton />);
+  const { getByRole } = render(<PrimaryButton text="Button Text" />);
   expect(getByRole('button')).toHaveTextContent('Click Here');
 });
 
