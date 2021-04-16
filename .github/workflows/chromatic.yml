@@ -14,10 +14,12 @@ jobs:
     # Job steps
     steps:
       - uses: actions/checkout@v1
-      - name: Install dependencies
+      - name: 🛠 Install dependencies
         run: npm install
+      - name: 🧪 Run Unit Tests
+        run: npm test # run your unit tests
         # 👇 Adds Chromatic as a step in the workflow
-      - name: Publish to Chromatic
+      - name: 📢 Publish to Chromatic
         uses: chromaui/action@v1
         # Chromatic GitHub Action options
         with:
