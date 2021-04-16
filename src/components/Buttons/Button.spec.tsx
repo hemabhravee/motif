@@ -5,7 +5,7 @@ import { ActionButton, PrimaryButton } from '.';
 
 test('Renders', async () => {
   const { getByRole } = render(<PrimaryButton text="Button Text" />);
-  expect(getByRole('button')).toHaveTextContent('Click Here');
+  expect(getByRole('button')).toHaveTextContent('Button Text');
 });
 
 test('Renders', async () => {
