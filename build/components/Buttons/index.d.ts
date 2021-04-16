@@ -1,3 +1,3 @@
 import ActionButton from './ActionButton';
-import CustomButton from './CustomButton';
-export { CustomButton, ActionButton };
+import PrimaryButton from './PrimaryButton';
+export { PrimaryButton, ActionButton };
