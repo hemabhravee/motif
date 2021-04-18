@@ -66,7 +66,7 @@ npm run storybook
 ```
 
 ## 🚘 Roadmap
-The library shall be follwoing the design guide and the wireframes and mockups from our Figma project - [Resuminator Redesign](bit.ly/resuminator-figma). The roadmap will be updated accordingly with the required components. For reference we're following the [Browk UI Kit](https://www.figma.com/community/file/817436609226882468) on Figma Community.
+The library shall be follwoing the design guide and the wireframes and mockups from our Figma project - [Resuminator Redesign](https://bit.ly/resuminator-figma). The roadmap will be updated accordingly with the required components. For reference we're following the [Browk UI Kit](https://www.figma.com/community/file/817436609226882468) on Figma Community.
 
 If you wish to contribute or create a component, feel free to open an issue indicating clearly which component you wish to work on.
 

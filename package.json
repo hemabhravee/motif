@@ -10,6 +10,7 @@
     "test": "jest --coverage",
     "lint": "eslint . --ext .ts",
     "storybook": "start-storybook",
+    "build-storybook": "build-storybook -- -o ./public",
     "prettier-format": "run-script-os",
     "prettier-format:win32": "prettier --config .prettierrc \"./src/**/*.ts\" --write",
     "prettier-format:darwin:linux": "prettier --config .prettierrc 'src/**/*.ts' --write",
@@ -17,7 +18,8 @@
     "prettier-watch": "run-script-os",
     "prettier-watch:win32": "onchange \"src/**/*.ts\" -- prettier --write {{changed}}",
     "prettier-watch:darwin:linux": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
-    "prettier-watch:default": "onchange 'src/**/*.ts' -- prettier --write {{changed}}"
+    "prettier-watch:default": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
+    "chromatic": "npx chromatic --project-token fcb39bffa22d --exit-zero-on-changes"
   },
   "files": [
     "build"
@@ -53,6 +55,7 @@
     "@typescript-eslint/parser": "^4.19.0",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.2.2",
+    "chromatic": "^5.6.2",
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",

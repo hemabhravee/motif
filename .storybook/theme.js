@@ -3,43 +3,49 @@ const { createMuiTheme, responsiveFontSizes } = require('@material-ui/core');
 const theme = responsiveFontSizes(
   createMuiTheme({
     palette: {
+      brand:{
+        one: "#6aeebe",
+        two: "#121c68",
+        three: "#e9f7d1",
+        four: "#feb9b0"
+      },
       primary: {
-        light: '#4cc9f0',
-        main: '#4361ee',
-        dark: '#3a0ca3',
-        contrastText: '#ecdbeb'
+        light: '#7596ff',
+        main: '#3369e7',
+        dark: '#003fb4',
+        contrastText: '#fffafa'
       },
       secondary: {
-        light: '#eed3da',
-        main: '#feb6c8',
-        dark: '#e20880',
+        light: '#ff7dc4',
+        main: '#eb4894',
+        dark: '#b40066',
         contrastText: '#393243'
       },
       info: {
-        light: '#95d8f2',
+        light: '#75e7ff',
         main: '#33b5e5',
-        dark: '#093044',
+        dark: '#0085b3',
         contrastText: '#f1ddd3'
       },
       success: {
-        light: '#c7f9cc',
+        light: '#b4ffca',
         main: '#80ed99',
-        dark: '#57cc99',
+        dark: '#4cba6a',
         contrastText: '#121212'
       },
       error: {
-        light: '#f24073',
+        light: '#ff5571',
         main: '#d20f46',
-        dark: '#86092c',
+        dark: '#990020',
         contrastText: '#f1ddd3'
       },
       warning: {
-        light: '#ffeb89',
+        light: '#ffff7d',
         main: '#ffd74a',
-        dark: '#ffb921',
+        dark: '#c8a608',
         contrastText: '#121212'
       },
-      contrastThreshold: 3.5,
+      contrastThreshold: 3.5
     },
     typography: {
       brand: {
